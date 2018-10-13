@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context="com.example.keerthana.kali.login">
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded_rectangle"
+        android:hint="      Email" />
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="    Password"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_rectangle"/>
+    <Button
+        android:id="@+id/main_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="login"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="150dp"
+        android:backgroundTint="	#D3D3D3"
+        />
+
+</RelativeLayout>
